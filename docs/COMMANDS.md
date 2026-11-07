@@ -211,6 +211,8 @@ mpv \
   --demuxer-readahead-secs=0 \
   --untimed \
   --no-audio \
+  --media-controls=no \
+  --input-media-keys=no \
   --vd-lavc-threads=1 \
   --demuxer-lavf-o=fflags=nobuffer,flags=low_delay,probesize=32,analyzeduration=0,max_delay=0 \
   "rtsp://192.168.10.100/live/0"
